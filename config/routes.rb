@@ -1,4 +1,8 @@
 Inuktitut::Application.routes.draw do
+  resources :syllables
+
+  get "home/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
